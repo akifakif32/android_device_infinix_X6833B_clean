@@ -1603,3 +1603,8 @@ vendor/bin/wlan_assistant
 vendor/etc/init/wlan_assistant.rc
 vendor/etc/init/init.wlan_drv.rc
 vendor/etc/wfd_source_capability.csv
+
+# Vibrator
+vendor/firmware/aw8622x_haptic.bin
+vendor/firmware/aw8622x_osc_rtp_12K_10s.bin
+vendor/firmware/aw8622x_rtp.bin
