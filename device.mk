@@ -310,12 +310,12 @@ PRODUCT_PACKAGES += \
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
-    FrameworkResOverlayRozen \
-    SettingsResOverlayRozen \
-    SettingsProviderOverlayRozen \
-    SystemUIResOverlayRozen \
-    TetheringResOverlayRozen \
-    WifiResOverlayRozen
+    FrameworkResOverlayKasim \
+    SettingsResOverlayKasim \
+    SettingsProviderOverlayKasim \
+    SystemUIResOverlayKasim \
+    TetheringResOverlayKasim \
+    WifiResOverlayKasim
 
 # Lineage-Specific Overlays
 PRODUCT_PACKAGES += \
