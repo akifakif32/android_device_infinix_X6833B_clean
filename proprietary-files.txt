@@ -901,6 +901,7 @@ vendor/lib64/vendor.mediatek.hardware.camera.isphal@1.1.so
 vendor/lib64/vendor.mediatek.hardware.camera.lomoeffect@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.postproc@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.security@1.0.so
+vendor/lib64/vendor.transsion.hardware.trancam.trancamserver@1.0.so
 
 # Cameradata
 vendor/data/camera/morpho/morpho_calibration_video.bin
