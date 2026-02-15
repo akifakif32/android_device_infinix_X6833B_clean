@@ -19,7 +19,6 @@ vendor/lib64/vendor.mediatek.hardware.apuware.utils@2.0.so
 # Audio
 vendor/lib/libbwc.so
 vendor/lib64/hw/audio.primary.mediatek.so;SYMLINK=vendor/lib64/hw/audio.primary.mt6789.so
-vendor/lib64/hw/audio.r_submix.mediatek.so;SYMLINK=vendor/lib64/hw/audio.r_submix.mt6789.so
 vendor/lib64/libalsautils.so:vendor/lib64/libalsautils-v31.so;FIX_SONAME
 vendor/lib64/libMtkSpeechEnh.so
 vendor/lib64/lib_iir.so
@@ -176,10 +175,6 @@ vendor/lib64/libbluetooth_mtk.so
 vendor/lib64/libbluetooth_mtk_pure.so
 vendor/lib64/libbt-vendor.so
 
-<<<<<<< HEAD
-# Camera
-=======
->>>>>>> faf18fb (changed proprietary)
 vendor/bin/hw/mt6789/camerahalserver;SYMLINK=vendor/bin/hw/camerahalserver
 vendor/etc/init/camerahalserver.rc
 vendor/etc/vintf/manifest/manifest_cameraprovider.xml
@@ -1209,10 +1204,7 @@ vendor/lib/libvcodec_utility_plat.mt6789.so
 vendor/lib64/libvpu.so
 
 # Media (C2)
-vendor/bin/hw/android.hardware.media.c2@1.2-mediatek-64b
-vendor/etc/init/android.hardware.media.c2@1.2-mediatek.rc
 vendor/etc/mtk_platform_codecs_config.xml
-vendor/etc/vintf/manifest/manifest_media_c2_V1_1_default.xml:vendor/etc/vintf/manifest/manifest_media_c2_V1_2_default.xml
 vendor/lib64/libcodec2_mtk_c2store.so
 vendor/lib64/libcodec2_mtk_vdec.so
 vendor/lib64/libcodec2_mtk_venc.so
@@ -1250,9 +1242,6 @@ vendor/lib64/libhevce_sb.ca7.android.so
 vendor/lib64/libheichal.so
 vendor/lib64/libvcodec_oal.so
 vendor/lib64/libvcodecdrv_header_stub.so
-vendor/lib64/libimageio_plat_drv.so
-vendor/lib64/libimageio_plat_pipe.so
-vendor/lib64/libimageio.so
 
 # Media (VPU)
 vendor/lib64/libmvpu_cic_ci_compiler.so
@@ -1547,17 +1536,8 @@ vendor/lib/libtranlog.so
 vendor/lib64/libminizip.so
 vendor/lib64/libtranlog.so
 
-#Vibrator
-vendor/firmware/aw8622x_haptic.bin
-vendor/firmware/aw8622x_osc_rtp_12K_10s.bin
-vendor/firmware/aw8622x_rtp.bin
-
 # Wi-Fi
 vendor/bin/wlan_assistant
 vendor/etc/init/wlan_assistant.rc
 vendor/etc/init/init.wlan_drv.rc
 vendor/etc/wfd_source_capability.csv
-<<<<<<< HEAD
-vendor/lib64/libwifi-hal.so:vendor/lib64/libwifi-hal-mtk.so;FIX_SONAME
-=======
->>>>>>> faf18fb (changed proprietary)
