@@ -21,7 +21,6 @@ vendor/lib/libbwc.so
 vendor/lib64/hw/audio.primary.mediatek.so;SYMLINK=vendor/lib64/hw/audio.primary.mt6789.so
 vendor/lib64/libalsautils.so:vendor/lib64/libalsautils-v31.so;FIX_SONAME
 vendor/lib64/libMtkSpeechEnh.so
-vendor/lib64/libTransNS.so
 vendor/lib64/lib_iir.so
 vendor/lib64/lib_speech_enh.so
 vendor/lib64/libaudio_param_parser-vnd.so
@@ -907,7 +906,6 @@ vendor/etc/vintf/manifest/vendor.transsion.hardware.trancam.trancamserver@1.0.xm
 vendor/lib64/vendor.transsion.hardware.trancam.trancamserver@1.0.so
 
 # Cameradata
-vendor/data/camera/morpho/morpho_calibration_ultrazoom.bin
 vendor/data/camera/morpho/morpho_calibration_video.bin
 vendor/data/camera/vidhance/vidhance.lic
 vendor/data/camera/vidhance/vidhance_calibration
@@ -963,7 +961,6 @@ vendor/lib64/libudf.so
 vendor/lib64/mt6789/arm.graphics-V1-ndk_platform.so;SYMLINK=vendor/lib64/arm.graphics-V1-ndk_platform.so
 vendor/lib64/mt6789/libaalservice.so;SYMLINK=vendor/lib64/libaalservice.so
 vendor/lib64/mt6789/libaal_cust_func.so;SYMLINK=vendor/lib64/libaal_cust_func.so
-vendor/lib64/mt6789/libaiselector.so;SYMLINK=vendor/lib64/libaiselector.so
 vendor/lib64/mt6789/libdpframework.so;SYMLINK=vendor/lib64/libdpframework.so
 vendor/lib64/mt6789/libmtk_drvb.so;SYMLINK=vendor/lib64/libmtk_drvb.so
 vendor/lib64/mt6789/libpq_cust_base.so;SYMLINK=vendor/lib64/libpq_cust_base.so
@@ -1008,11 +1005,9 @@ vendor/lib64/vendor.fpsensor.hardware.fpsensorhidlsvc@2.0.so
 
 # Firmware
 vendor/firmware/BT_FW.cfg
-vendor/firmware/Conf_MultipleTest.ini
 vendor/firmware/WIFI_RAM_CODE_soc2_2_1d_1.bin
 vendor/firmware/WIFI_RAM_CODE_soc2_2_1e_1.bin
 vendor/firmware/WMT_SOC.cfg
-vendor/firmware/aw87xxx_acf.bin
 vendor/firmware/aw8622x_haptic.bin
 vendor/firmware/aw8622x_osc_rtp_12K_10s.bin
 vendor/firmware/aw8622x_rtp.bin
@@ -1021,9 +1016,7 @@ vendor/firmware/aw8624_osc_rtp_24K_5s.bin
 vendor/firmware/aw8624_rtp.bin
 vendor/firmware/aw8624_rtp_lighthouse.bin
 vendor/firmware/aw8624_rtp_silk.bin
-vendor/firmware/awinic_params.bin
 vendor/firmware/fm_cust.cfg
-vendor/firmware/focaltech_ts_fw.bin
 vendor/firmware/fs1599.fsm
 vendor/firmware/fs3001_1.bin
 vendor/firmware/fs3001_2.bin
@@ -1307,7 +1300,6 @@ vendor/lib64/libcmdl_ndk.mtk.vndk.so
 vendor/lib64/libneuron_graph_delegate.mtk.so
 vendor/lib64/libneuron_platform.so;DISABLE_CHECKELF
 vendor/lib64/libnir_neon_driver_ndk.mtk.vndk.so;FIX_SONAME
-vendor/lib64/libnnp.so
 vendor/lib64/libnpagent.so
 vendor/lib64/libnpagent_server.so
 vendor/lib64/libtflite_mtk.so
