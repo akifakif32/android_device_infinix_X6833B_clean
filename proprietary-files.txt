@@ -179,6 +179,7 @@ vendor/lib64/libbt-vendor.so
 vendor/bin/hw/mt6789/camerahalserver:vendor/bin/hw/camerahalserver
 vendor/etc/init/camerahalserver.rc
 vendor/etc/vintf/manifest/manifest_cameraprovider.xml
+vendor/lib/mt6789/libmtk_drvb.so;SYMLINK=vendor/lib/libmtk_drvb.so
 vendor/lib64/hw/mt6789/android.hardware.camera.provider@2.6-impl-mediatek.so:vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.solo
 vendor/lib64/hw/mt6789/vendor.mediatek.hardware.camera.atms@1.0-impl.so:vendor/lib64/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so
 vendor/lib64/hw/mt6789/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so:vendor/lib64/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so
@@ -335,6 +336,7 @@ vendor/lib64/mt6789/libaibc_tuning_p2.so:vendor/lib64/libaibc_tuning_p2.so
 vendor/lib64/mt6789/libaibc_tuning_p3.so:vendor/lib64/libaibc_tuning_p3.so
 vendor/lib64/mt6789/libaibc_tuning_p4.so:vendor/lib64/libaibc_tuning_p4.so
 vendor/lib64/mt6789/libaidepth_tuning.so:vendor/lib64/libaidepth_tuning.so
+vendor/lib64/mt6789/libaiselector.so;SYMLINK=vendor/lib64/libaiselector.so
 vendor/lib64/mt6789/libamipengine.so:vendor/lib64/libamipengine.so
 vendor/lib64/mt6789/libanc_dc_base.so:vendor/lib64/libanc_dc_base.so
 vendor/lib64/mt6789/libarcsoft_high_dynamic_range.so:vendor/lib64/libarcsoft_high_dynamic_range.so
@@ -415,6 +417,7 @@ vendor/lib64/mt6789/libmagicsky_64.so:vendor/lib64/libmagicsky_64.so
 vendor/lib64/mt6789/libmorpho_video_stabilizer.so:vendor/lib64/libmorpho_video_stabilizer.so;DISABLE_CHECKELF
 vendor/lib64/mt6789/libmpbase.so:vendor/lib64/libmpbase.so
 vendor/lib64/mt6789/libmsnr.so:vendor/lib64/libmsnr.so
+vendor/lib64/mt6789/libmtk_drvb.so;SYMLINK=vendor/lib64/libmtk_drvb.so
 vendor/lib64/mt6789/libmtkcam.atmseventmgr.so:vendor/lib64/libmtkcam.atmseventmgr.so
 vendor/lib64/mt6789/libmtkcam.eventcallback.so:vendor/lib64/libmtkcam.eventcallback.so
 vendor/lib64/mt6789/libmtkcam.featurepipe.capture.so:vendor/lib64/libmtkcam.featurepipe.capture.so
