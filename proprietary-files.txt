@@ -473,6 +473,9 @@ vendor/lib64/mt6789/libmtkcam_prerelease.so;SYMLINK=vendor/lib64/libmtkcam_prere
 vendor/lib64/mt6789/libmtkcam_rsc.so;SYMLINK=vendor/lib64/libmtkcam_rsc.so
 vendor/lib64/mt6789/libmtkcam_scenariorecorder.so;SYMLINK=vendor/lib64/libmtkcam_scenariorecorder.so
 vendor/lib64/mt6789/libmtkcam_stdutils.so;SYMLINK=vendor/lib64/libmtkcam_stdutils.so
+vendor/lib64/mt6789/libimageio_plat_drv.so;SYMLINK=vendor/lib64/libimageio_plat_drv.sox
+vendor/lib64/mt6789/libimageio.so;SYMLINK=vendor/lib64/libimageio.so
+vendor/lib64/mt6789/libimageio_plat_pipe.so;SYMLINK=vendor/lib64/libimageio_plat_pipe.so
 vendor/lib64/mt6789/libmtkcam_streamutils.so;SYMLINK=vendor/lib64/libmtkcam_streamutils.so
 vendor/lib64/mt6789/libmtkcam_synchelper.so;SYMLINK=vendor/lib64/libmtkcam_synchelper.so
 vendor/lib64/mt6789/libmtkcam_sysutils.so;SYMLINK=vendor/lib64/libmtkcam_sysutils.so
@@ -1535,6 +1538,11 @@ vendor/lib64/vendor.transsion.hardware.tne.tneengine@1.0.so
 vendor/lib/libtranlog.so
 vendor/lib64/libminizip.so
 vendor/lib64/libtranlog.so
+
+# Vibrator
+vendor/firmware/aw8622x_haptic.bin
+vendor/firmware/aw8622x_osc_rtp_12K_10s.bin
+vendor/firmware/aw8622x_rtp.bin
 
 # Wi-Fi
 vendor/bin/wlan_assistant
