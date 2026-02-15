@@ -179,7 +179,6 @@ vendor/lib64/libbt-vendor.so
 vendor/bin/hw/mt6789/camerahalserver:vendor/bin/hw/camerahalserver
 vendor/etc/init/camerahalserver.rc
 vendor/etc/vintf/manifest/manifest_cameraprovider.xml
-vendor/lib/mt6789/libaiselector.so:vendor/lib/libaiselector.so
 vendor/lib/mt6789/libmtk_drvb.so:vendor/lib/libmtk_drvb.so
 vendor/lib64/hw/mt6789/android.hardware.camera.provider@2.6-impl-mediatek.so:vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.solo
 vendor/lib64/hw/mt6789/vendor.mediatek.hardware.camera.atms@1.0-impl.so:vendor/lib64/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so
