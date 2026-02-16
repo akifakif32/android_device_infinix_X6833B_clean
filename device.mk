@@ -315,12 +315,12 @@ PRODUCT_PACKAGES += \
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
-    FrameworkResOverlayKasim \
-    SettingsResOverlayKasim \
-    SettingsProviderOverlayKasim \
-    SystemUIResOverlayKasim \
-    TetheringResOverlayKasim \
-    WifiResOverlayKasim
+    FrameworkResOverlayWaves \
+    SettingsResOverlayWaves \
+    SettingsProviderOverlayWaves \
+    SystemUIResOverlayWaves \
+    TetheringResOverlayWaves \
+    WifiResOverlayWaves
 
 # Lineage-Specific Overlays
 PRODUCT_PACKAGES += \
