@@ -41,7 +41,7 @@
     <public type="bool" name="config_wifi_background_scan_support" id="0x7f010005" />
     <public type="bool" name="config_wifi_connected_mac_randomization_supported" id="0x7f010006" />
     <public type="bool" name="config_wifi_fast_bss_transition_enabled" id="0x7f010007" />
-    <public type="bool" name="config_wifi_framework_use_single_radio_chain_scan_results_network_selection" id=">
+    <public type="bool" name="config_wifi_framework_use_single_radio_chain_scan_results_network_selection" id="0x7f010008" />
     <public type="bool" name="config_wifi_p2p_mac_randomization_supported" id="0x7f010009" />
     <public type="bool" name="config_wifi_softap_acs_supported" id="0x7f01000a" />
     <public type="bool" name="config_wifi_softap_ieee80211ac_supported" id="0x7f01000b" />
