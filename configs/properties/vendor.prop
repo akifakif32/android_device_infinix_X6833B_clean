@@ -52,6 +52,12 @@ vendor.camera.mdp.dre.enable=1
 vendor.mtk.camera.app.fd.video=1
 ro.vendor.camkit_enabled=1
 vendor.camera.aux.packageexcludelist=org.telegram.messenger,org.thunderdog.challegram,tw.nekomimi.nekogram
+vendor.camera.tran.nums=1
+ro.camera.sound.forced=0
+persist.sys.camera_start_optimize=1
+ro.com.google.lens.oem_camera_package=com.transsion.camera
+ro.tran_cam_quickup_support=1
+vendor.mtk.camera.app.fd.video=1
 
 # Charger
 ro.vendor.mtk_fast_charging_support=1
