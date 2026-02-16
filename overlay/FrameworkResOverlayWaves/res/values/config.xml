@@ -395,24 +395,6 @@
 
      <!-- Whether device supports double tap to wake -->
      <bool name="config_supportDoubleTapWake">true</bool>
-     <!-- Config from Dobro -->
-     <bool name="config_allowNightDisplayColorTemperature">true</bool>
-    <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
-    <bool name="config_hotswapCapable">true</bool>
-    <bool name="config_is_powerbutton_fps">true</bool>
-    <bool name="config_pinnerCameraApp">false</bool>
-    <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
-    <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
-    <bool name="config_setColorTransformAccelerated">true</bool>
-    <bool name="config_sf_limitedAlpha">true</bool>
-    <bool name="config_sf_slowBlur">true</bool>
-    <bool name="config_showNavigationBar">true</bool>
-    <bool name="config_supportDoubleTapWake">true</bool>
-    <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
-    <bool name="config_sustainedPerformanceModeSupported">true</bool>
-    <bool name="config_unspecified_hbm_supported">true</bool>
-    <bool name="config_useDevInputEventForAudioJack">true</bool>
-    <bool name="config_wifi_softap_sae_supported">true</bool>
 
     <public type="array" name="config_autoBrightnessLcdBacklightValues" id="0x7f010000" />
     <public type="array" name="config_autoBrightnessLevels" id="0x7f010001" />
