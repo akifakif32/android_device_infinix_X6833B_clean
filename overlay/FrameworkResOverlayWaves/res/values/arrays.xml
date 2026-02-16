@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="config_autoBrightnessLcdBacklightValues">
+        <item>4</item>
+        <item>12</item>
+        <item>25</item>
+        <item>40</item>
+        <item>55</item>
+        <item>75</item>
+        <item>95</item>
+        <item>130</item>
+        <item>160</item>
+        <item>200</item>
+        <item>220</item>
+        <item>235</item>
+        <item>255</item>
+        <item>255</item>
+        <item>255</item>
+        <item>255</item>
+        <item>255</item>
+        <item>255</item>
+    </integer-array>
+    <integer-array name="config_autoBrightnessLevels">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>50</item>
+        <item>100</item>
+        <item>200</item>
+        <item>400</item>
+        <item>800</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>3000</item>
+        <item>5000</item>
+        <item>7000</item>
+        <item>10000</item>
+        <item>15000</item>
+        <item>20000</item>
+        <item>30000</item>
+    </integer-array>
+    <integer-array name="config_availableColorModes">
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+    <string-array name="config_biometric_sensors">
+        <item>0:2:15</item>
+    </string-array>
+    <string-array name="config_color_mode_options_strings">
+        <item>Natural</item>
+        <item>Boosted</item>
+    </string-array>
+    <integer-array name="config_color_mode_options_values">
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+    <string-array name="config_defaultPinnerServiceFiles">
+        <item>/apex/com.android.art/javalib/core-oj.jar</item>
+        <item>/apex/com.android.art/javalib/core-libart.jar</item>
+        <item>/system/framework/framework.jar</item>
+        <item>/system/framework/services.jar</item>
+        <item>/system/bin/surfaceflinger</item>
+        <item>/system_ext/priv-app/SystemUI/SystemUI.apk</item>
+    </string-array>
+    <integer-array name="config_screenBrightnessBacklight">
+        <item>1</item>
+        <item>15</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>75</item>
+        <item>90</item>
+        <item>110</item>
+        <item>120</item>
+        <item>135</item>
+        <item>150</item>
+        <item>175</item>
+        <item>200</item>
+        <item>220</item>
+        <item>235</item>
+        <item>245</item>
+        <item>250</item>
+        <item>255</item>
+    </integer-array>
+    <array name="config_screenBrightnessNits">
+        <item>2.0</item>
+        <item>30.0</item>
+        <item>60.0</item>
+        <item>90.0</item>
+        <item>130.0</item>
+        <item>180.0</item>
+        <item>240.0</item>
+        <item>310.0</item>
+        <item>370.0</item>
+        <item>430.0</item>
+        <item>500.0</item>
+        <item>570.0</item>
+        <item>640.0</item>
+        <item>700.0</item>
+        <item>760.0</item>
+        <item>800.0</item>
+        <item>850.0</item>
+        <item>900.0</item>
+    </array>
+    <array name="config_sfps_sensor_props">
+        <item>@array/config_sfps_sensor_props_0</item>
+    </array>
+    <array name="config_sfps_sensor_props_0">
+        <item>local:0</item>
+        <item>1080</item>
+        <item>1010</item>
+        <item>210</item>
+    </array>
+</resources>
