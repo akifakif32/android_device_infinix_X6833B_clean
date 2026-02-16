@@ -65,7 +65,7 @@
                 <string ...>M -5,0 L -5,10 L 5,10 L 5,0 Z @dp</string>
          @see https://www.w3.org/TR/SVG/paths.html#PathData
          -->
-    <string name="config_mainBuiltInDisplayCutout">M -24,0 L -24,36 L 24,36 L 24,0 Z @dp</string>
+      <string name="config_mainBuiltInDisplayCutout">M 0, 12.6 A 12.6, 12.6 0 1, 0 0, 37.8 A 12.6, 12.6 0 1, 0 0, 12.6 Z @dp</string>
 
     <!-- Whether the display cutout region of the main built-in display should be forced to
          black in software (to avoid aliasing or emulate a cutout that is not physically existent).
@@ -80,7 +80,7 @@
          If a non-zero value is set for config_defaultPeakRefreshRate, then
          config_defaultRefreshRate may be set to 0, in which case the value set for
          config_defaultPeakRefreshRate will act as the default frame rate. -->
-    <integer name="config_defaultRefreshRate">0</integer>
+    <integer name="config_defaultRefreshRate">120</integer>
 
     <!-- The default peak refresh rate for a given device. Change this value if you want to prevent
          the framework from using higher refresh rates, even if display modes with higher refresh
@@ -118,18 +118,18 @@
          array. The brightness values must be non-negative and non-decreasing. This must be
          overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessLcdBacklightValues">
-        <item>8</item>
-        <item>64</item>
-        <item>98</item>
-        <item>104</item>
-        <item>110</item>
-        <item>116</item>
-        <item>122</item>
-        <item>128</item>
-        <item>134</item>
-        <item>182</item>
-        <item>255</item>
-        <item>255</item>
+        <item>4</item>
+        <item>12</item>
+        <item>25</item>
+        <item>40</item>
+        <item>55</item>
+        <item>75</item>
+        <item>95</item>
+        <item>130</item>
+        <item>160</item>
+        <item>200</item>
+        <item>220</item>
+        <item>235</item>
         <item>255</item>
         <item>255</item>
         <item>255</item>
@@ -137,28 +137,28 @@
         <item>255</item>
         <item>255</item>
     </integer-array>
-
+    
     <!-- An array describing the screen's backlight values corresponding to the brightness
     values in the config_screenBrightnessNits array. -->
     <integer-array name="config_screenBrightnessBacklight">
-         <item>1</item>
-         <item>15</item>
-         <item>30</item>
-         <item>45</item>
-         <item>60</item>
-         <item>75</item>
-         <item>90</item>
-         <item>105</item>
-         <item>120</item>
-         <item>135</item>
-         <item>150</item>
-         <item>165</item>
-         <item>180</item>
-         <item>195</item>
-         <item>210</item>
-         <item>225</item>
-         <item>240</item>
-         <item>255</item>
+        <item>1</item>
+        <item>15</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>75</item>
+        <item>90</item>
+        <item>110</item>
+        <item>120</item>
+        <item>135</item>
+        <item>150</item>
+        <item>175</item>
+        <item>200</item>
+        <item>220</item>
+        <item>235</item>
+        <item>245</item>
+        <item>250</item>
+        <item>255</item>
     </integer-array>
 
     <!-- An array of floats describing the screen brightness in nits corresponding to the backlight
@@ -168,24 +168,24 @@
     brightness modes but only the maximum brightness value obtainable in a sustainable manner.
     This array should be equal in size to config_screenBrightnessBacklight -->
     <array name="config_screenBrightnessNits">
-         <item>4.5215</item>
-         <item>33.37784</item>
-         <item>69.09702</item>
-         <item>105.53111</item>
-         <item>141.15657</item>
-         <item>177.40657</item>
-         <item>212.14172</item>
-         <item>247.64085</item>
-         <item>282.03754</item>
-         <item>317.2586</item>
-         <item>351.1292</item>
-         <item>384.87363</item>
-         <item>418.19705</item>
-         <item>451.90884</item>
-         <item>485.0235</item>
-         <item>517.10864</item>
-         <item>548.933</item>
-         <item>580</item>
+        <item>2.0</item>
+        <item>30.0</item>
+        <item>60.0</item>
+        <item>90.0</item>
+        <item>130.0</item>
+        <item>180.0</item>
+        <item>240.0</item>
+        <item>310.0</item>
+        <item>370.0</item>
+        <item>430.0</item>
+        <item>500.0</item>
+        <item>570.0</item>
+        <item>640.0</item>
+        <item>700.0</item>
+        <item>760.0</item>
+        <item>800.0</item>
+        <item>850.0</item>
+        <item>900.0</item>
     </array>
 
     <!-- Array of light sensor lux values to define our levels for auto backlight brightness
@@ -210,25 +210,25 @@
 
          Must be overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessLevels">
-         <item>128</item>
-         <item>256</item>
-         <item>384</item>
-         <item>512</item>
-         <item>640</item>
-         <item>768</item>
-         <item>896</item>
-         <item>1024</item>
-         <item>2048</item>
-         <item>4096</item>
-         <item>6144</item>
-         <item>8192</item>
-         <item>10240</item>
-         <item>12288</item>
-         <item>14336</item>
-         <item>16384</item>
-         <item>18432</item>
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>50</item>
+        <item>100</item>
+        <item>200</item>
+        <item>400</item>
+        <item>800</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>3000</item>
+        <item>5000</item>
+        <item>7000</item>
+        <item>10000</item>
+        <item>15000</item>
+        <item>20000</item>
+        <item>30000</item>
     </integer-array>
-
+    
     <!-- Minimum screen brightness setting allowed by power manager.
          The user is forbidden from setting the brightness below this level.  -->
     <item type="dimen" name="config_screenBrightnessSettingMinimumFloat">0.003921569</item>
@@ -253,6 +253,7 @@
     timeout expires.  May be less than the minimum allowed brightness setting
     that can be set by the user. -->
     <integer name="config_screenBrightnessDim">10</integer>
+    <integer name="config_screenBrightnessSettingMinimumHighBrightnessModeLux">5000</integer>    
 
     <!-- Light sensor event rate in milliseconds for automatic brightness control. -->
     <integer name="config_autoBrightnessLightSensorRate">250</integer>
@@ -279,6 +280,14 @@
           <item>0</item>
           <item>1</item>
      </integer-array>
+     <string-array name="config_defaultPinnerServiceFiles">
+        <item>/apex/com.android.art/javalib/core-oj.jar</item>
+        <item>/apex/com.android.art/javalib/core-libart.jar</item>
+        <item>/system/framework/framework.jar</item>
+        <item>/system/framework/services.jar</item>
+        <item>/system/bin/surfaceflinger</item>
+        <item>/system_ext/priv-app/SystemUI/SystemUI.apk</item>
+    </string-array>
 
      <!-- Indicate available ColorDisplayManager.COLOR_MODE_xxx. -->
      <integer-array name="config_availableColorModes">
@@ -291,15 +300,15 @@
 
     <!-- Radius of the software rounded corners at the top of the display in its natural
         orientation. If zero, the value of rounded_corner_radius is used. -->
-    <dimen name="rounded_corner_radius_top">0.0dip</dimen>
+    <dimen name="rounded_corner_radius_top">26.0dip</dimen>
 
     <!-- Radius of the software rounded corners at the bottom of the display in its natural
         orientation. If zero, the value of rounded_corner_radius is used. -->
-    <dimen name="rounded_corner_radius_bottom">0.0dip</dimen>
+    <dimen name="rounded_corner_radius_bottom">26.0dip</dimen>
 
     <!-- The default height of the status bar used in {@link SystemBarUtils#getStatusBarHeight} to
          calculate the status bar height. -->
-    <dimen name="status_bar_height_default">42dp</dimen>
+    <dimen name="status_bar_height_default">36.0dip</dimen>
 
     <!-- Height of the status bar.
          Do not read this dimen directly. Use {@link SystemBarUtils#getStatusBarHeight} instead.
@@ -309,12 +318,12 @@
     <!-- Height of the status bar in portrait.
          Do not read this dimen directly. Use {@link SystemBarUtils#getStatusBarHeight} instead.
          -->
-    <dimen name="status_bar_height_portrait">42dp</dimen>
+    <dimen name="status_bar_height_portrait">40dip</dimen>
 
     <!-- Height of the status bar in landscape.
          Do not read this dimen directly. Use {@link SystemBarUtils#getStatusBarHeight} instead.
          -->
-    <dimen name="status_bar_height_landscape">28dp</dimen>
+    <dimen name="status_bar_height_landscape">28dip</dimen>
 
     <!-- Should the pinner service pin the Camera application? -->
     <bool name="config_pinnerCameraApp">false</bool>
@@ -383,7 +392,7 @@
      <array name="config_sfps_sensor_props_0" translatable="false">
           <item>local:0</item>     <!-- displayId -->
           <item>1080</item> <!-- sensorLocationX -->
-          <item>1056</item>  <!-- sensorLocationY -->
+          <item>1010</item>  <!-- sensorLocationY -->
           <item>210</item>  <!-- sensorRadius -->
      </array>
 
@@ -394,4 +403,81 @@
 
      <!-- Whether device supports double tap to wake -->
      <bool name="config_supportDoubleTapWake">true</bool>
+     <!-- Config from Dobro -->
+     <bool name="config_allowNightDisplayColorTemperature">true</bool>
+    <bool name="config_automatic_brightness_available">true</bool>
+    <bool name="config_enableAutoPowerModes">true</bool>
+    <bool name="config_enableHapticTextHandle">true</bool>
+    <bool name="config_enableWifiDisplay">true</bool>
+    <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
+    <bool name="config_hotswapCapable">true</bool>
+    <bool name="config_is_powerbutton_fps">true</bool>
+    <bool name="config_pinnerCameraApp">false</bool>
+    <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
+    <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
+    <bool name="config_setColorTransformAccelerated">true</bool>
+    <bool name="config_sf_limitedAlpha">true</bool>
+    <bool name="config_sf_slowBlur">true</bool>
+    <bool name="config_showNavigationBar">true</bool>
+    <bool name="config_supportDoubleTapWake">true</bool>
+    <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
+    <bool name="config_sustainedPerformanceModeSupported">true</bool>
+    <bool name="config_unspecified_hbm_supported">true</bool>
+    <bool name="config_useDevInputEventForAudioJack">true</bool>
+    <bool name="config_wifi_softap_sae_supported">true</bool>
+
+    <public type="array" name="config_autoBrightnessLcdBacklightValues" id="0x7f010000" />
+    <public type="array" name="config_autoBrightnessLevels" id="0x7f010001" />
+    <public type="array" name="config_availableColorModes" id="0x7f010002" />
+    <public type="array" name="config_biometric_sensors" id="0x7f010003" />
+    <public type="array" name="config_color_mode_options_strings" id="0x7f010004" />
+    <public type="array" name="config_color_mode_options_values" id="0x7f010005" />
+    <public type="array" name="config_defaultPinnerServiceFiles" id="0x7f010006" />
+    <public type="array" name="config_screenBrightnessBacklight" id="0x7f010007" />
+    <public type="array" name="config_screenBrightnessNits" id="0x7f010008" />
+    <public type="array" name="config_sfps_sensor_props" id="0x7f010009" />
+    <public type="array" name="config_sfps_sensor_props_0" id="0x7f01000a" />
+    <public type="bool" name="config_allowNightDisplayColorTemperature" id="0x7f020000" />
+    <public type="bool" name="config_automatic_brightness_available" id="0x7f020001" />
+    <public type="bool" name="config_enableAutoPowerModes" id="0x7f020002" />
+    <public type="bool" name="config_enableHapticTextHandle" id="0x7f020003" />
+    <public type="bool" name="config_enableWifiDisplay" id="0x7f020004" />
+    <public type="bool" name="config_fillMainBuiltInDisplayCutout" id="0x7f020005" />
+    <public type="bool" name="config_hotswapCapable" id="0x7f020006" />
+    <public type="bool" name="config_is_powerbutton_fps" id="0x7f020007" />
+    <public type="bool" name="config_pinnerCameraApp" id="0x7f020008" />
+    <public type="bool" name="config_powerDecoupleAutoSuspendModeFromDisplay" id="0x7f020009" />
+    <public type="bool" name="config_powerDecoupleInteractiveModeFromDisplay" id="0x7f02000a" />
+    <public type="bool" name="config_setColorTransformAccelerated" id="0x7f02000b" />
+    <public type="bool" name="config_sf_limitedAlpha" id="0x7f02000c" />
+    <public type="bool" name="config_sf_slowBlur" id="0x7f02000d" />
+    <public type="bool" name="config_showNavigationBar" id="0x7f02000e" />
+    <public type="bool" name="config_supportDoubleTapWake" id="0x7f02000f" />
+    <public type="bool" name="config_suspendWhenScreenOffDueToProximity" id="0x7f020010" />
+    <public type="bool" name="config_sustainedPerformanceModeSupported" id="0x7f020011" />
+    <public type="bool" name="config_unspecified_hbm_supported" id="0x7f020012" />
+    <public type="bool" name="config_useDevInputEventForAudioJack" id="0x7f020013" />
+    <public type="bool" name="config_wifi_softap_sae_supported" id="0x7f020014" />
+    <public type="dimen" name="config_screenBrightnessSettingDefaultFloat" id="0x7f030000" />
+    <public type="dimen" name="config_screenBrightnessSettingMaximumFloat" id="0x7f030001" />
+    <public type="dimen" name="config_screenBrightnessSettingMinimumFloat" id="0x7f030002" />
+    <public type="dimen" name="rounded_corner_radius" id="0x7f030003" />
+    <public type="dimen" name="rounded_corner_radius_bottom" id="0x7f030004" />
+    <public type="dimen" name="rounded_corner_radius_top" id="0x7f030005" />
+    <public type="dimen" name="status_bar_height" id="0x7f030006" />
+    <public type="dimen" name="status_bar_height_default" id="0x7f030007" />
+    <public type="dimen" name="status_bar_height_landscape" id="0x7f030008" />
+    <public type="dimen" name="status_bar_height_portrait" id="0x7f030009" />
+    <public type="integer" name="config_autoBrightnessBrighteningLightDebounce" id="0x7f040000" />
+    <public type="integer" name="config_autoBrightnessDarkeningLightDebounce" id="0x7f040001" />
+    <public type="integer" name="config_autoBrightnessLightSensorRate" id="0x7f040002" />
+    <public type="integer" name="config_defaultPeakRefreshRate" id="0x7f040003" />
+    <public type="integer" name="config_defaultRefreshRate" id="0x7f040004" />
+    <public type="integer" name="config_num_physical_slots" id="0x7f040005" />
+    <public type="integer" name="config_screenBrightnessDim" id="0x7f040006" />
+    <public type="integer" name="config_screenBrightnessSettingMinimumHighBrightnessModeLux" id="0x7f040007" />
+    <public type="integer" name="config_screenshotChordKeyTimeout" id="0x7f040008" />
+    <public type="string" name="config_appsNotReportingCrashes" id="0x7f050000" />
+    <public type="string" name="config_mainBuiltInDisplayCutout" id="0x7f050001" />
+    <public type="xml" name="power_profile" id="0x7f060000" />
 </resources>
