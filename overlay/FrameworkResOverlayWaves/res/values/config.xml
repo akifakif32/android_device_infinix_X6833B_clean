@@ -395,7 +395,10 @@
 
      <!-- Whether device supports double tap to wake -->
      <bool name="config_supportDoubleTapWake">true</bool>
-
+    
+    <!-- from dobro -->
+    <bool name="config_unspecified_hbm_supported">true</bool>
+ 
     <public type="array" name="config_autoBrightnessLcdBacklightValues" id="0x7f010000" />
     <public type="array" name="config_autoBrightnessLevels" id="0x7f010001" />
     <public type="array" name="config_availableColorModes" id="0x7f010002" />
