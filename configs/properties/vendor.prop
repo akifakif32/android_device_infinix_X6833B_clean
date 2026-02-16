@@ -60,8 +60,8 @@ ro.tran_cam_quickup_support=1
 vendor.mtk.camera.app.fd.video=1
 
 # Blur
-ro.surface_flinger.supports_background_blur=1
 ro.launcher.blur.appLaunch=1
+
 #Gestural
 ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural;com.google.android.systemui.gxoverlay
 
@@ -313,7 +313,6 @@ ro.surface_flinger.protected_contents=true
 ro.surface_flinger.set_display_power_timer_ms=1000
 ro.surface_flinger.uclamp.min=307
 ro.surface_flinger.use_content_detection_for_refresh_rate=true
-ro.sf.lcd_density=480
 ro.surface_flinger.use_color_management=1
 ro.surface_flinger.primary_display_orientation=0
 ro.surface_flinger.wcg_composition_enabled=1
