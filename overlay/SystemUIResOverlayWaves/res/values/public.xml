@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="bool" name="config_enableShellMainThread" id="0x7f010000" />
+    <public type="dimen" name="keyguard_carrier_text_margin" id="0x7f020000" />
+    <public type="dimen" name="navigation_side_padding" id="0x7f020001" />
+    <public type="dimen" name="physical_fingerprint_sensor_center_screen_location_x" id="0x7f020002" />
+    <public type="dimen" name="physical_fingerprint_sensor_center_screen_location_y" id="0x7f020003" />
+    <public type="dimen" name="physical_power_button_center_screen_location_y" id="0x7f020004" />
+    <public type="dimen" name="rounded_corner_content_padding" id="0x7f020005" />
+    <public type="dimen" name="status_bar_left_clock_starting_padding" id="0x7f020006" />
+    <public type="dimen" name="status_bar_padding_end" id="0x7f020007" />
+    <public type="dimen" name="status_bar_padding_start" id="0x7f020008" />
+    <public type="dimen" name="system_icons_keyguard_padding_end" id="0x7f020009" />
+</resources>
