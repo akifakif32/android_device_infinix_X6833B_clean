@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="config_appsNotReportingCrashes">com.google.android.tts</string>
-    <string name="config_mainBuiltInDisplayCutout">M 0, 12.6 A 12.6, 12.6 0 1, 0 0, 37.8 A 12.6, 12.6 0 1, 0 0, 12.6 Z @dp</string>
-</resources>

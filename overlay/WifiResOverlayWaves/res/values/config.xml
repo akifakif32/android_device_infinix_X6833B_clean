@@ -17,29 +17,38 @@
  */
 -->
 <resources>
+    <bool name="config_wifi11axSupportOverride">true</bool>
     <bool name="config_wifi5ghzSupport">true</bool>
-    <bool name="config_wifiAllowInsecureEnterpriseConfigurationsForSettingsAndSUW">true</bool>
     <bool name="config_wifiSaeH2eSupported">true</bool>
+    <bool name="config_wifiSoftapIeee80211axSupported">true</bool>
     <bool name="config_wifiSoftapResetMaxClientSettingConfig">false</bool>
     <bool name="config_wifi_background_scan_support">true</bool>
     <bool name="config_wifi_connected_mac_randomization_supported">true</bool>
     <bool name="config_wifi_fast_bss_transition_enabled">true</bool>
+    <bool name="config_wifi_framework_use_single_radio_chain_scan_results_network_selection">true</bool>
     <bool name="config_wifi_p2p_mac_randomization_supported">true</bool>
     <bool name="config_wifi_softap_acs_supported">true</bool>
     <bool name="config_wifi_softap_ieee80211ac_supported">true</bool>
     <bool name="config_wifi_softap_sae_supported">true</bool>
+
+    <public type="bool" name="config_wifi11axSupportOverride" id="0x7f010000" />
+    <public type="bool" name="config_wifi5ghzSupport" id="0x7f010001" />
+    <public type="bool" name="config_wifiSaeH2eSupported" id="0x7f010002" />
+    <public type="bool" name="config_wifiSoftapIeee80211axSupported" id="0x7f010003" />
+    <public type="bool" name="config_wifiSoftapResetMaxClientSettingConfig" id="0x7f010004" />
+    <public type="bool" name="config_wifi_background_scan_support" id="0x7f010005" />
+    <public type="bool" name="config_wifi_connected_mac_randomization_supported" id="0x7f010006" />
+    <public type="bool" name="config_wifi_fast_bss_transition_enabled" id="0x7f010007" />
+    <public type="bool" name="config_wifi_framework_use_single_radio_chain_scan_results_network_selection" id=">
+    <public type="bool" name="config_wifi_p2p_mac_randomization_supported" id="0x7f010009" />
+    <public type="bool" name="config_wifi_softap_acs_supported" id="0x7f01000a" />
+    <public type="bool" name="config_wifi_softap_ieee80211ac_supported" id="0x7f01000b" />
+    <public type="bool" name="config_wifi_softap_sae_supported" id="0x7f01000c" />
+    <public type="string" name="config_wifiSoftap2gChannelList" id="0x7f020000" />
+    <public type="string" name="config_wifi_tcp_buffers" id="0x7f020001" />
+    <public type="string" name="wifi_tether_configure_ssid_default" id="0x7f020002" />
+
     <string name="config_wifiSoftap2gChannelList">1-13</string>
-    <string name="config_wifiSoftap5gChannelList">36,38,40,42,44,46,48,149,153,157,161,165</string>
-    <string name="config_wifiSoftap60gChannelList" />
-    <string name="config_wifiSoftap6gChannelList">5,21,37,53,69,85,101,117,133,149,165,181,197,213,229</string>
-    <string name="config_wifi_random_mac_oui">00-0C-E7</string>
     <string name="config_wifi_tcp_buffers">1730560,3461120,6922240,524288,1048576,4525824</string>
-    <!-- Indicates whether or not the WLAN driver supports the NL80211_CMD_REG_CHANGE or
-         NL80211_CMD_WIPHY_REG_CHANGE events which indicate the current country code which is
-         being used by the WLAN driver. If the driver doesn't support these events
-         (configuration is `false`) then the driver must handle the setCountryCode request from
-         HAL as a blocking call. In such a case the country code will be applied
-         immediately after the country code is sent to the driver (if the method returns a
-         success). -->
-    <bool name="config_wifiDriverSupportedNl80211RegChangedEvent" translatable="false">false</bool>
+    <string name="wifi_tether_configure_ssid_default">INFINIX NOTE 30</string>
 </resources>
