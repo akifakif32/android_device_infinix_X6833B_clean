@@ -397,6 +397,7 @@
      <bool name="config_supportDoubleTapWake">true</bool>
     
     <!-- from dobro -->
+    <bool name="config_allowNightDisplayColorTemperature">true</bool>
     <bool name="config_unspecified_hbm_supported">true</bool>
  
     <public type="array" name="config_autoBrightnessLcdBacklightValues" id="0x7f010000" />
