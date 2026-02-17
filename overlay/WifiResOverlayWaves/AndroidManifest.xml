@@ -10,7 +10,7 @@
         android:hasCode="false"
         android:extractNativeLibs="true" />
     <overlay
-        android:priority="0"
+        android:priority="350"
         android:targetPackage="com.android.wifi.resources"
         android:targetName="WifiCustomization"
         android:isStatic="true" />
