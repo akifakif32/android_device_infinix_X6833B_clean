@@ -1,4 +1,4 @@
-# Device tree for the TECNO POVA 5 (LH7n)
+# Device tree for the Infinix Note 30 4G (X6833B)
 
 ## Device specifications
 
@@ -9,16 +9,16 @@
 | GPU                     | Mali-G57 MC2                                                |
 | Memory                  | 8GB                                                         |
 | Shipped Android version | 13                                                          |
-| Storage                 | 256GB                                                       |
+| Storage                 | 128GB/256GB                                                       |
 | MicroSD                 | MicroSDXC                                                   |
-| Battery                 | Non-removable Li-Po 6000 mAh                                |
-| Dimensions              | 168.6 x 76.6 x 9 mm                                         |
+| Battery                 | Non-removable Li-Po 5000 mAh                                |
+| Dimensions              | 168.6 x 76.6 x 8.6 mm                                         |
 | Display                 | 1080 x 2460 pixels, 6.78 inches                             |
-| Rear Camera 1           | 50 MP, f/1.6, (wide), 1/2.76", PDAF                         |
+| Rear Camera 1           | 64 MP, f/1.7, (wide), 1/2.0", PDAF                         |
 | Rear Camera 2           | 0.08 MP (auxiliary lens)                                    |
-| Front Camera            | 8 MP                                                        |
+| Front Camera            | 16 MP                                                        |
 
 
 ## Device Picture
 
-![TECNO CAMON 20 Pro 4G](https://fdn2.gsmarena.com/vv/pics/tecno/tecno-pova5-10.jpg)
+![Infinix Note 30 4G](https://fdn2.gsmarena.com/vv/pics/infinix/infinix-note30-4g-0.jpg)
