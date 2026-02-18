@@ -2110,3 +2110,4 @@ vendor/bin/wlan_assistant
 vendor/etc/init/wlan_assistant.rc
 vendor/etc/init/init.wlan_drv.rc
 vendor/etc/wfd_source_capability.csv
+vendor/bin/hw/hostapd
