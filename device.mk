@@ -535,3 +535,6 @@ PRODUCT_COPY_FILES += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/infinix/X6833B/X6833B-vendor.mk)
+
+#Dirty Fix For 5GHz
+PRODUCT_PACKAGES += replace_hostapd
