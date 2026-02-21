@@ -311,6 +311,7 @@ ro.surface_flinger.protected_contents=true
 ro.surface_flinger.set_display_power_timer_ms=1000
 ro.surface_flinger.uclamp.min=328
 ro.surface_flinger.use_content_detection_for_refresh_rate=true
+<<<<<<< HEAD
 ro.surface_flinger.use_color_management=1
 ro.surface_flinger.primary_display_orientation=0
 ro.surface_flinger.wcg_composition_enabled=1
@@ -328,6 +329,7 @@ ro.surface_flinger.force_hwc_copy_for_virtual_displays=0
 ro.surface_flinger.protected_buffers_use_gralloc=1
 ro.surface_flinger.disable_client_composition_timeout=1
 ro.surface_flinger.buffer_age_approximation_enabled=1
+ro.surface_flinger.game_default_frame_rate_override=120
 
 # Vibration
 ro.vendor.tran.vibrator.option=single
