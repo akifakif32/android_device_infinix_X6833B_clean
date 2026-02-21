@@ -85,7 +85,6 @@ ro.vendor.mtk_widevine_drm_l1_support=1
 # Display
 debug.graphics.game_default_frame_rate.disabled=true
 debug.mediatek.appgamepq_compress=1
-debug.mediatek.disp_decompress=1
 persist.vendor.sys.mtkaal.function=0
 ro.hardware.egl=mali
 ro.hardware.gralloc=common
@@ -147,16 +146,11 @@ ro.vendor.mtk_log_hide_gps=1
 debug.hwui.target_cpu_time_percent=30
 debug.hwui.use_hint_manager=true
 
-# IncrementalFS
-ro.incremental.enable=yes
-
 # IMS
 persist.vendor.mdrsra_v2_support=1
 persist.vendor.mtk.volte.enable=1
-persist.vendor.mtk.volte.enable=1
 persist.vendor.mtk_ct_volte_support=3
 persist.vendor.mtk_dynamic_ims_switch=1
-persist.vendor.mtk_wfc_support=1
 persist.vendor.mtk_wfc_support=1
 persist.vendor.viwifi_support=1
 persist.vendor.vonr_setting_support=0
@@ -243,7 +237,6 @@ vendor.perf.framepacing.enable=1
 # Radio
 persist.radio.multisim.config=dsds
 persist.vendor.md_c2k_cap_dep_check=0
-persist.vendor.mdrsra_v2_support=1
 persist.vendor.mims_support=2
 persist.vendor.mtk_sim_switch_policy=2
 persist.vendor.radio.fd.counter=150
@@ -306,12 +299,12 @@ debug.sf.region_sampling_duration_ns=8333333
 debug.sf.region_sampling_period_ns=99999984
 debug.sf.region_sampling_timer_timeout_ns=99999984
 ro.surface_flinger.enable_frame_rate_override=false
-ro.surface_flinger.max_frame_buffer_acquired_buffers=3
+ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
+ro.surface_flinger.max_frame_buffer_acquired_buffers=6
 ro.surface_flinger.protected_contents=true
 ro.surface_flinger.set_display_power_timer_ms=1000
 ro.surface_flinger.uclamp.min=328
 ro.surface_flinger.use_content_detection_for_refresh_rate=true
-<<<<<<< HEAD
 ro.surface_flinger.use_color_management=1
 ro.surface_flinger.primary_display_orientation=0
 ro.surface_flinger.wcg_composition_enabled=1
@@ -325,7 +318,6 @@ ro.surface_flinger.sf_latch_offset_ns=4000000
 ro.surface_flinger.present_time_offset_from_vsync_ns=1000000
 ro.surface_flinger.max_graphics_width=1080
 ro.surface_flinger.max_graphics_height=2460
-ro.surface_flinger.force_hwc_copy_for_virtual_displays=0
 ro.surface_flinger.protected_buffers_use_gralloc=1
 ro.surface_flinger.disable_client_composition_timeout=1
 ro.surface_flinger.buffer_age_approximation_enabled=1
